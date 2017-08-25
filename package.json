@@ -1,0 +1,27 @@
+{
+  "name": "pillow-sample",
+  "version": "1.0.0",
+  "description": "HTML5 2D rendering engine",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pillowjs/pillow-sample.git"
+  },
+  "keywords": [
+    "canvas"
+  ],
+  "homepage": "https://pillowjs.github.com/pillow-sample",
+  "precommit": [
+    "lint"
+  ],
+  "scripts": {
+    "server": "startserver -p 8081 -s -m"
+  },
+  "devDependencies": {
+  },
+  "startserver": [
+    {
+      "startserver-webpack": "*"
+    }
+  ],
+  "license": "MIT"
+}
